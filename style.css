@@ -1,0 +1,78 @@
+/*Estilo global*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menu{
+    background: greenyellow;
+    padding: 15px;
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+#menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#menu a:hover{
+    background-color: white;
+    color: skyblue;
+}
+.principal{
+    width: 1200px;
+    height: 1360px;
+    border: 5px dashed green;
+    align-items: center;
+    justify-content: center;
+}
+#banner{
+    width: 1200px;
+    height: 450px;
+}
+.image{
+    width: 430px;
+    height: 430px;
+    float: left;
+    background-color: bisque;
+    border: 3px black solid;
+}
+.flor{
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    align-content: center;
+    float: left;
+    border: 3px black solid;
+}
+.text{
+    width: 750px;
+    height: 450px;
+    align-content: center;
+    float: left;
+    /*border: 3px black solid;*/
+}
+.text_description{
+    font-size: 32px;
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    color: cadetblue;
+    text-align: center;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer{
+    width: 1200px;
+    background-color: greenyellow;
+    color: black;
+    text-align:center;
+    padding: 10px;
+}
